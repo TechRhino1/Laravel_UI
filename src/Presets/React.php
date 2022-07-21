@@ -33,7 +33,7 @@ class React extends Preset
     {
         return [
             '@babel/preset-react' => '^7.13.13',
-            '@vitejs/plugin-react' => '^1.3.2',
+            '@vitejs/plugin-react' => '^2.0.0',
             'react' => '^17.0.2',
             'react-dom' => '^17.0.2',
         ] + Arr::except($packages, ['@vitejs/plugin-vue', 'vue']);
