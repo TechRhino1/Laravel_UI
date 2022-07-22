@@ -35,7 +35,10 @@ class React extends Preset
             '@vitejs/plugin-react' => '^2.0.0',
             'react' => '^17.0.2',
             'react-dom' => '^17.0.2',
-        ] + Arr::except($packages, ['@vitejs/plugin-vue', 'vue']);
+        ] + Arr::except($packages, [
+            '@vitejs/plugin-vue',
+            'vue'
+        ]);
     }
 
     /**
