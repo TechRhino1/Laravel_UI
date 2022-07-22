@@ -32,7 +32,6 @@ class Vue extends Preset
     {
         return [
             '@vitejs/plugin-vue' => '^3.0.1',
-            'sass' => '^1.32.11',
             'vue' => '^3.2.37',
         ] + Arr::except($packages, [
             '@vitejs/plugin-react',
